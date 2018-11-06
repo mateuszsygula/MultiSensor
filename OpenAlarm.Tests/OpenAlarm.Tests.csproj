@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\OpenAlarm.Core\OpenAlarm.Core.csproj"/>
+    <ProjectReference Include="..\OpenAlarm.Infrastructure\OpenAlarm.Infrastructure.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.11.0"/>
+    <PackageReference Include="Moq" Version="4.10.0"/>
+    <PackageReference Include="FluentAssertions" Version="5.4.2"/>
+    dotne<PackageReference Include="NUnitLite" Version="3.11.0"/>
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+</Project>
